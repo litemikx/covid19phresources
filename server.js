@@ -53,6 +53,5 @@ app.use((err, req, res, next) => {
 
 
 const listener = app.listen(process.env.MY_PORT, () => {
-    console.log(process.env);
   console.log('Your app is listening on port ' + process.env.MY_PORT)
 })
