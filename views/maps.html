@@ -1,10 +1,131 @@
-<html>
-    <h1>Transportation</h1>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1pOztlKzdCLUNIvtqsqJyOa1pOPEf6lxT&center=14.57772,120.98561" width="640" height="480"></iframe>
 
-    <h3>OVP Shuttle Schedule and Route:</h3>
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FVPLeniRobredoPH%2Fposts%2F2738701352914182&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<head>
+    <title>Covid19 PH Resources</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("/w3images/mac.jpg");
+        min-height: 100%;
+        background-color: black;
+    }
+
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+</style>
+
+<body>
+    
+<!-- Navbar (sit on top) -->
+<div class="w3-top header-cs">
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large header-mobile" style="display:none" id="mySidebar">
+   
+  </nav>
+     <!-- Header with full-height image -->
+     <div class="w3-container" style="padding:128px 16px" id="work">
+        <h3 class="w3-center">Transportation</h3>
+        <p class="w3-center w3-large">Mass transporation is suspended. But we people need to go to work and serve our country. Below are ways on how you can go around your destination.</p>
+      
+        <div class="w3-row-padding" style="margin-top:64px">
+          <div class="w3-col l6 m12">
+            <h3>OVP Shuttle Schedule and Route:</h3>
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FVPLeniRobredoPH%2Fposts%2F2738701352914182&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          <div class="w3-col l6 m12">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1pOztlKzdCLUNIvtqsqJyOa1pOPEf6lxT&center=14.57772,120.98561" width="640" height="480"></iframe>
+          </div>
+        </div>
+      
+        <div class="w3-row-padding w3-section">
+          <div class="w3-col l3 m6">
+            <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+          </div>
+        </div>
+      </div>
+      
+    
+
+    
 
     <h3>DOTr Shuttle Schedule and Route:</h3>
     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDOTrPH%2Fposts%2F1647095972096199&width=500" width="500" height="770" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <footer class="w3-center w3-black w3-padding-64"></footer>
+    <script>
+        $(document).ready(function () {
+            $('.header-cs').load('../../header.html');
+            $('.header-mobile').load('../../header-mobile.html');
+            $('footer').load('footer.html');
+
+            
+        });
+
+                    // Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+
+    </script>
+</body>
+
 </html>

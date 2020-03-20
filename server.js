@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+const path = require('path')
 const port = process.env.MY_PORT
 
 const cors = require('cors')
@@ -11,62 +12,18 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
 
-app.use(express.static('public'))
+app.use(express.static(path.resolve('./public')))
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html')
 });
 
-app.post('/api/exercise/new-user', function(req, res) {
-  User.find({username : req.body.username}, function(err, data) {
-    if(err) {
-      return err;
-    }
-    
-    if(data.length == 0) {
-      var user = new User({ username : req.body.username});
-      
-      user.save(function(err, result) {
-        if(err) {
-          return err;
-        }
-        
-        res.send(result);
-      });
-      
-    } else {
-      res.send('User already taken.');
-    }
-  }) 
-});
-
-app.post('/api/exercise/add', function(req, res) {
-  User.findById(req.body.userId, function(err, data) {
-    if(err) {
-      return err;
-    }
-    var obj = {
-      description : req.body.description,
-      duration : req.body.duration,
-      date : req.body. date
-    };
-    
-    data.exercises.push(obj);
-    
-    data.markModified('exercises');
-    
-    data.save(function(err, result) {
-      if(err) {
-        return err;
-      }
-      
-      res.send(result);
-    });
-  }) 
-});
-
 app.get('/maps/transpo/ncr', (req, res) => {
-    res.sendFile(__dirname + '/views/maps.html')
-  });
+  res.sendFile(__dirname + '/views/maps.html')
+});
+
+app.get('/health/ncr', (req, res) => {
+  res.sendFile(__dirname + '/views/health.html')
+});
 
 
 // Not found middleware
