@@ -3,21 +3,67 @@
 
 <head>
     <title>Covid19 PH Resources</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("/w3images/mac.jpg");
+        min-height: 100%;
+        background-color: black;
+    }
+
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+</style>
 
 <body>
-    <h1>Covid19 PH Resources</h1>
-
-    <header></header>
-    <div>
-       
-    </div>
-    <div>
-        <p>Listahan ng mga mahahalagang impormasyon na magagamit sa panahon ng Covid19.</p>
-    </div>
+    
+<!-- Navbar (sit on top) -->
+<div class="w3-top header-cs">
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large header-mobile" style="display:none" id="mySidebar">
+   
+  </nav>
+  
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small">Let's Fight Covid19!</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">A collection of different links and resources to help us in this time.</span><br>
+      <span class="w3-large">A collection of different links and resources to help us in this time.</span>
+    </div> 
+  </header>
+    
     <div id="reach-out" class="container">
         <h3>Official Facebook Pages</h3>
         <ul>
@@ -31,21 +77,110 @@
             <li><a href="" target="_blank">Department of Transportation</a></li>
             <li><a href="" target="_blank">Department of the Interior and Local Government</a></li>
         </ul>
-        <h3>Hotlines:</h3>
+        <div id="region">
+            <label for="city">Select a City</label>
+            <select id="city" name="city">
+                <option value="">Select</option>
+                <optgroup label="Metro Manila">
+                    <option value="caloocan">Caloocan</option>
+                    <option value="laspinas">Las Pinas</option>
+                    <option value="makati">Makati</option>
+                    <option value="malabon">Malabon</option>
+                    <option value="mandaluyong">Mandaluyong</option>
+                    <option value="manilacity">† City of Manila</option>
+                    <option value="marikina">Marikina</option>
+                    <option value="muntinlupa">Muntinlupa</option>
+                    <option value="navotas">Navotas</option>
+                    <option value="parañaque">Parañaque</option>
+                    <option value="pasay">Pasay</option>
+                    <option value="pasig">Pasig</option>
+                    <option value="pateros">Pateros</option>
+                    <option value="quezoncity">Quezon City</option>
+                    <option value="sanjuan">San Juan</option>
+                    <option value="taguig">Taguig</option>
+                    <option value="valenzuela">Valenzuela</option>
+                </optgroup>
+            </select>
+
+            <div id="caloocan" class="hide">
+                <h3>Caloocan</h3>
+
+            </div>
+            <div id="makati" class="hide">
+                <h3>Makati</h3>
+                <p><a href="https://www.facebook.com/MyMakatiVerified/">My Makati Facebook Page</a></p>
+                <div>
+                    <iframe
+                        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMyMakatiVerified%2Fposts%2F2647494292039347&width=500"
+                        width="500" height="719" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div id="quezoncity" class="hide">
+                <h3>Quezon City</h3>
+                <p><a href="https://www.facebook.com/QCGov">Quezon City Government Facebook Page</a></p>
+                <div>
+                    <iframe
+                        src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FQCGov%2Fvideos%2F218052842935069%2F&show_text=0&width=476"
+                        width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div>
     </div>
-    <div class="container">
-        <a href="/maps/transpo/ncr">Mapa para sa transportasyon</a>
-    </div>
-    <footer>
-
-    </footer>
+    <footer class="w3-center w3-black w3-padding-64"></footer>
     <script>
         $(document).ready(function () {
-            $('header').load('header.html');
+            $('.header-cs').load('header.html');
+            $('.header-mobile').load('header-mobile.html');
             $('footer').load('footer.html');
+
+            $('select#city').change(function () {
+                alert(this.value);
+                if (this.value == 'makati') {
+                    $('#makati').show();
+                } else {
+                    $('#makati').hide();
+                }
+
+                if (this.value == 'quezoncity') {
+                    $('#quezoncity').show();
+                } else {
+                    $('#quezoncity').hide();
+                }
+            })
+
         });
+
+                    // Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+
     </script>
 </body>
 
