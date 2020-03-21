@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.use(express.static(path.resolve('./public')))
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html')
+  res.sendFile(__dirname + '/views/maintenance.html') // '/views/index.html')
 });
 
 app.get('/maps/transpo/ncr', (req, res) => {
