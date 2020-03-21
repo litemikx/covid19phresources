@@ -5,3 +5,7 @@
 select#city {
     max-width: 50%;
 }
+
+i.fa {
+    font-size: 50px;
+}
