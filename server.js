@@ -6,7 +6,7 @@ const port = process.env.PORT
 
 const cors = require('cors')
 
-app.use(cors())
+app.use(cors())                   
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
@@ -23,6 +23,10 @@ app.get('/maps/transpo/ncr', (req, res) => {
 
 app.get('/health/ncr', (req, res) => {
   res.sendFile(__dirname + '/views/health.html')
+});
+
+app.get('/hotlines/ncr', (req, res) => {
+  res.sendFile(__dirname + '/views/hotlines.html')
 });
 
 
@@ -52,6 +56,6 @@ app.use((err, req, res, next) => {
 
 
 
-const listener = app.listen(process.env.PORT || 3000, () => {
+const listener = app.listen(process.env.PORT || 3000, '192.168.0.10', () => {
   console.log('Your app is listening on port ' + process.env.PORT)
 })
