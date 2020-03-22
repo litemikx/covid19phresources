@@ -3,6 +3,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const path = require('path')
 const port = process.env.PORT
+const fs = require('fs')
 
 const cors = require('cors')
 
@@ -14,7 +15,7 @@ app.use(bodyParser.json())
 
 app.use(express.static(path.resolve('./public')))
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/maintenance.html') // '/views/index.html')
+  res.sendFile(__dirname + '/views/index.html') // '/views/index.html')
 });
 
 app.get('/maps/transpo/ncr', (req, res) => {
@@ -29,6 +30,18 @@ app.get('/hotlines/ncr', (req, res) => {
   res.sendFile(__dirname + '/views/hotlines.html')
 });
 
+app.get('/data/:region/:city', (req, res, next) => {
+    var region = req.params.region;
+    var city = req.params.city;
+    fs.readFile(__dirname + '/data/region/' + region + '.json', function(err, data) {
+      if(err) {
+        return err;
+      }
+      var obj = JSON.parse(data);
+      res.json(obj[city]);
+    })
+
+});
 
 // Not found middleware
 app.use((req, res, next) => {
