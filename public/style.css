@@ -6,6 +6,6 @@ select#city {
     max-width: 50%;
 }
 
-i.fa {
+i.fa.header-i {
     font-size: 50px;
 }
