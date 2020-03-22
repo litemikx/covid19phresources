@@ -18,4 +18,4 @@ Philippine focused static website for resources related to Covid19 effects in th
 6. In your Github fork repository, submit a PR to the `master` branch. 
 
 #### Content
-* You can message me(us) in the projects [Facebook page - Covid19PHResources](https://www.facebook.com/Covid19PHResources)
+* You can message me(us) in the project's [Facebook page - Covid19PHResources](https://www.facebook.com/Covid19PHResources)
