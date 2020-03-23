@@ -9,6 +9,7 @@ Philippine focused static website for resources related to Covid19 effects in th
 * News page
 * Logo
 * Responsive iframe
+* SSL via heroku paid dynos
 
 ### You can contribute here by:
 #### Website development
