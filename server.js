@@ -30,6 +30,10 @@ app.get('/hotlines/ncr', (req, res) => {
   res.sendFile(__dirname + '/views/hotlines.html')
 });
 
+app.get('/trackers', (req, res) => {
+  res.sendFile(__dirname + '/views/trackers.html')
+});
+
 app.get('/data/:region/:city', (req, res, next) => {
     var region = req.params.region;
     var city = req.params.city;
