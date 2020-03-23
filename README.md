@@ -22,8 +22,10 @@ Philippine focused static website for resources related to Covid19 effects in th
 #### Content
 * You can message me(us) in the project's [Facebook page - Covid19PHResources](https://www.facebook.com/Covid19PHResources)
 * You can also update the JSON file found in `/data/` folder. 
-Folder structure: 
-root
-├── data
-│   └── region
-|       └── {region-name}.json
+  * Folder structure: 
+```
+    root
+    ├── data
+    │   └── region
+    |       └── {region-name}.json
+```
