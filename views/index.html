@@ -168,6 +168,14 @@
     </div>
     <footer class="w3-center w3-black w3-padding-64"></footer>
     <script>
+        function isEmpty(obj) {
+            for(var key in obj) {
+                if(obj.hasOwnProperty(key))
+                    return false;
+            }
+            return true;
+        }
+
         $(document).ready(function () {
             $('.header-cs').load('header.html');
             $('.header-mobile').load('header-mobile.html');
@@ -180,27 +188,32 @@
                 var region = str[0];
                 var city = str[1];
                 $.get('data/' + region + '/' + city, function(data, status) {
-                    //alert(JSON.stringify(data));
-
-                    var datahtml = "<p>" + data['city'] + "</p>";
-                    datahtml += "<p>Status: " + data['status'] + "</p>";
-                    datahtml += data['info']['facebook'];
                     
-                    datahtml += "<p>Hotlines: ";
-                    for(var y = 0; y < data['info']['hotlines'].length; y++) {
-                        datahtml += data['info']['hotlines'][y] + ' ';
-                        if(y < data['info']['hotlines'].length - 1) {
-                            datahtml += '/';
-                        } else {
-                            datahtml += "</p>";
+                    var datahtml = '';
+                    if(isEmpty(data)) {
+                        datahtml += "<p>No Information Yet</p>";
+                    } else {
+
+                        datahtml += "<p>" + data['city'] + "</p>";
+                        datahtml += "<p>Status: " + data['status'] + "</p>";
+                        datahtml += data['info']['facebook'];
+                        
+                        datahtml += "<p>Hotlines: ";
+                        for(var y = 0; y < data['info']['hotlines'].length; y++) {
+                            datahtml += data['info']['hotlines'][y] + ' ';
+                            if(y < data['info']['hotlines'].length - 1) {
+                                datahtml += '/';
+                            } else {
+                                datahtml += "</p>";
+                            }
                         }
-                    }
-                
-                    var embds = data['info'];
-                    for(var i = 0; i < embds['embeds'].length; i++) {
-                        datahtml += "<iframe src='" + data['info']['embeds'][i] + "' " +
-                            "width='476' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' " +
-                            "allowTransparency='true' allowFullScreen='true'></iframe>";
+                    
+                        var embds = data['info'];
+                        for(var i = 0; i < embds['embeds'].length; i++) {
+                            datahtml += "<iframe src='" + data['info']['embeds'][i] + "' " +
+                                "width='476' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' " +
+                                "allowTransparency='true' allowFullScreen='true'></iframe>";
+                        }
                     }
                     
                     

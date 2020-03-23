@@ -38,7 +38,14 @@ app.get('/data/:region/:city', (req, res, next) => {
         return err;
       }
       var obj = JSON.parse(data);
-      res.json(obj[city]);
+
+      if(obj[city] != 'undefined' && obj[city] != null && obj[city] != '') {
+        res.json(obj[city]);
+      } else {
+        res.json({});
+      }
+
+      
     })
 
 });

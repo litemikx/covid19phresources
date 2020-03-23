@@ -7,6 +7,8 @@ Philippine focused static website for resources related to Covid19 effects in th
 * More content
 * Update data/region json files
 * News page
+* Logo
+* Responsive iframe
 
 ### You can contribute here by:
 #### Website development
