@@ -24,3 +24,8 @@ i.fa.header-i {
     overflow: hidden;
     min-height: 900px;
 }
+
+.logo-only {
+    width: 100px;
+    height: auto;
+}
