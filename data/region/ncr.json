@@ -1,8 +1,163 @@
 {
-    
+    "caloocan" : {
+        "city" : "Caloocan City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "5310-6972"
+                ],
+                "embeds" : [
+                    
+                ],
+                "facebook" : "<p><a href='#'>Unknown Facebook Page</a></p>",
+                "official" : "<p><a href='http://www.caloocancity.gov.ph/'>Caloocan City Gov.ph</a></p>"
+
+            }
+        
+        },
+    "laspinas" : {
+        "city" : "Las Piñas City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8552-7694",
+                    "8776-7268"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcityoflaspinasofficial%2Fposts%2F2775103615921630&width=500"
+                    
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/cityoflaspinasofficial'>Las Piñas City Government Facebook Page</a></p>",
+                "official" : "<p><a href='http://www.laspinascity.gov.ph/'>Las Piñas City Gov.ph</a></p>"
+
+            }
+        
+        },
+    "makati" : {
+        "city" : "Makati City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "168",
+                    "8236-5790"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMyMakatiVerified%2Fposts%2F2647494292039347&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/MyMakatiVerified/'>My Makati Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.makati.gov.ph/'>Makati City Gov.ph</a></p>"
+            }
+        
+    },
+    "malabon" : {
+        "city" : "Malabon City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8921-6009",
+                    "8518-8602"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPusongMalabonian%2Fposts%2F2859918034044395&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/PusongMalabonian/'>100% Pusong Malabonian Facebook Page</a></p>",
+                "official" : "<p><a href='https://malabon.gov.ph/'>Malabon City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "mandaluyong" : {
+        "city" : "Mandaluyong City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8533-2225"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMandaluyongPIO%2Fposts%2F222131732486590&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/MandaluyongPIO/'>Mandaluyong City Public Information Office Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.mandaluyong.gov.ph/'>Mandaluyong City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "manilacity" : {
+        "city" : "Manila City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8527-5175"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FManilaPIO%2Fposts%2F825028094648548&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/ManilaPIO/'>Manila City Public Information Office Facebook Page</a></p>",
+                "official" : "<p><a href='http://manila.gov.ph/'>Manila City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "marikina" : {
+        "city" : "Marikina City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "161"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMarikinaPIO%2Fposts%2F3515711608443116&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/MarikinaPIO/'>Marikina City Public Information Office Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.marikina.gov.ph/'>Marikina City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "muntinlupa" : {
+        "city" : "Muntinlupa City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8925-4351"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FofficialMuntinlupacity%2Fposts%2F2921694101252823&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/officialMuntinlupacity'>City Government of Muntinlupa - OFFICIAL Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.muntinlupacity.gov.ph/'>Muntinlupa City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "navotas" : {
+        "city" : "Navotas City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8281-1111"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnavotenoako%2Fposts%2F3499202206773396&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/navotenoako'>Navoteño AKO! Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.navotas.gov.ph/'>Muntinlupa City Gov.ph</a></p>"
+
+            }
+        
+    },
      "quezoncity" : {
             "city" : "Quezon City",
-            "status" : "Enhaced Community Quarantine",
+            "status" : "Enhanced Community Quarantine",
             "info" : 
                 {
                     "hotlines" : [
@@ -13,24 +168,8 @@
                     "embeds" : [
                         "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FQCGov%2Fvideos%2F218052842935069%2F&show_text=0&width=476"
                     ],
-                    "facebook" : "<p><a href='https://www.facebook.com/QCGov'>Quezon City Government Facebook Page</a></p>"
-                    
-                }
-            
-        },
-    "makati" : {
-            "city" : "Makati City",
-            "status" : "Enhaced Community Quarantine",
-            "info" : 
-                {
-                    "hotlines" : [
-                        "168",
-                        "8236-5790"
-                    ],
-                    "embeds" : [
-                        "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMyMakatiVerified%2Fposts%2F2647494292039347&width=500"
-                    ],
-                    "facebook" : "<p><a href='https://www.facebook.com/MyMakatiVerified/'>My Makati Facebook Page</a></p>"
+                    "facebook" : "<p><a href='https://www.facebook.com/QCGov'>Quezon City Government Facebook Page</a></p>",
+                    "official" : "<p><a href='https://quezoncity.gov.ph/'>Muntinlupa City Gov.ph</a></p>"
                 }
             
         }
