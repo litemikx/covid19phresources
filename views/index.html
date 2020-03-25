@@ -163,8 +163,10 @@
             </select>
             
         </div>
-         <div id="region-city-content">
-        </div>        
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div id="region-city-content" class="w3-center w3-col l12 m12">
+            </div> 
+        </div>       
     </div>
     <footer class="w3-center w3-black w3-padding-64"></footer>
     <script>
@@ -197,6 +199,7 @@
                         datahtml += "<p>" + data['city'] + "</p>";
                         datahtml += "<p>Status: " + data['status'] + "</p>";
                         datahtml += data['info']['facebook'];
+                        datahtml += data['info']['official'];
                         
                         datahtml += "<p>Hotlines: ";
                         for(var y = 0; y < data['info']['hotlines'].length; y++) {
@@ -210,9 +213,9 @@
                     
                         var embds = data['info'];
                         for(var i = 0; i < embds['embeds'].length; i++) {
-                            datahtml += "<iframe src='" + data['info']['embeds'][i] + "' " +
-                                "width='476' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' " +
-                                "allowTransparency='true' allowFullScreen='true'></iframe>";
+                            datahtml += "<div class='resp-container w3-center w3-col l12 m12'><iframe src='" + data['info']['embeds'][i] + "' " +
+                                "class='resp-iframe' style='border:none;overflow:hidden' scrolling='no' frameborder='0' " +
+                                "allowTransparency='true' allowFullScreen='true'></iframe></div>";
                         }
                     }
                     

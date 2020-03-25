@@ -25,6 +25,12 @@ i.fa.header-i {
     min-height: 900px;
 }
 
+.resp-container-youtube {
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+}
+
 .logo-only {
     width: 100px;
     height: auto;
