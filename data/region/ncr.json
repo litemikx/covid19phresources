@@ -10,7 +10,7 @@
                 "embeds" : [
                     
                 ],
-                "facebook" : "<p><a href='#'>Unknown Facebook Page</a></p>",
+                "facebook" : "<p><a href='#'>No Official Facebook Page</a></p>",
                 "official" : "<p><a href='http://www.caloocancity.gov.ph/'>Caloocan City Gov.ph</a></p>"
 
             }
@@ -150,7 +150,79 @@
                     "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnavotenoako%2Fposts%2F3499202206773396&width=500"
                 ],
                 "facebook" : "<p><a href='https://www.facebook.com/navotenoako'>Navoteño AKO! Facebook Page</a></p>",
-                "official" : "<p><a href='https://www.navotas.gov.ph/'>Muntinlupa City Gov.ph</a></p>"
+                "official" : "<p><a href='https://www.navotas.gov.ph/'>Navotas City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "paranaque" : {
+        "city" : "Parañaque City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "911",
+                    "8820-7783"
+                ],
+                "embeds" : [
+                    
+                ],
+                "facebook" : "<p><a href='#'>No Official Facebook Page</a></p>",
+                "official" : "<p><a href='https://paranaquecity.gov.ph/'>Parañaque City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "pasay" : {
+        "city" : "Pasay City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8551-2026",
+                    "09567786524",
+                    "09089937024"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flgupasaypio%2Fposts%2F825208607884763&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/lgupasaypio'>Pasay City Public Information Office Official Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.pasay.gov.ph/'>Pasay City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "pasig" : {
+        "city" : "Pasig City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8643-0000",
+                    "09088993333"
+                ],
+                "embeds" : [
+                    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPasigPIO%2Fposts%2F1656118627880582&width=500"
+                ],
+                "facebook" : "<p><a href='https://www.facebook.com/PasigPIO/'>Pasig City Public Information Office Official Facebook Page</a></p>",
+                "official" : "<p><a href='https://www.pasigcity.gov.ph/'>Pasig City Gov.ph</a></p>"
+
+            }
+        
+    },
+    "pateros" : {
+        "city" : "Pateros City",
+        "status" : "Enhanced Community Quarantine",
+        "info" : 
+            {
+                "hotlines" : [
+                    "8642-5159"
+                ],
+                "embeds" : [
+                    
+                ],
+                "facebook" : "<p><a href='#'>No Official Facebook Page</a></p>",
+                "official" : "<p><a href='#'>No Gov.ph Site</a></p>"
 
             }
         
@@ -169,7 +241,58 @@
                         "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FQCGov%2Fvideos%2F218052842935069%2F&show_text=0&width=476"
                     ],
                     "facebook" : "<p><a href='https://www.facebook.com/QCGov'>Quezon City Government Facebook Page</a></p>",
-                    "official" : "<p><a href='https://quezoncity.gov.ph/'>Muntinlupa City Gov.ph</a></p>"
+                    "official" : "<p><a href='https://quezoncity.gov.ph/'>Quezon City Gov.ph</a></p>"
+                }
+            
+        },
+        "sanjuan" : {
+            "city" : "San Juan City",
+            "status" : "Enhanced Community Quarantine",
+            "info" : 
+                {
+                    "hotlines" : [
+                        "7238-4333"
+
+                    ],
+                    "embeds" : [
+                        "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCityofSanJuanNCRPhilippines%2Fposts%2F2742412575857262&width=500"
+                    ],
+                    "facebook" : "<p><a href='https://www.facebook.com/CityofSanJuanNCRPhilippines/'>San Juan City Official Facebook Page</a></p>",
+                    "official" : "<p><a href='https://www.sanjuancity.gov.ph/'>San Juan City Gov.ph</a></p>"
+                }
+            
+        },
+        "taguig" : {
+            "city" : "Taguig City",
+            "status" : "Enhanced Community Quarantine",
+            "info" : 
+                {
+                    "hotlines" : [
+                        "8789-3200"
+
+                    ],
+                    "embeds" : [
+                        "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftaguigcity%2Fvideos%2F550405108915508%2F&show_text=0&width=560"
+                    ],
+                    "facebook" : "<p><a href='https://www.facebook.com/taguigcity'>I Love Taguig Facebook Page</a></p>",
+                    "official" : "<p><a href='https://www.taguig.gov.ph/'>Taguig City Gov.ph</a></p>"
+                }
+            
+        },
+        "valenzuela" : {
+            "city" : "Valenzuela City",
+            "status" : "Enhanced Community Quarantine",
+            "info" : 
+                {
+                    "hotlines" : [
+                        "8352-5000"
+
+                    ],
+                    "embeds" : [
+                        "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FValenzuelaCityGov%2Fposts%2F10159665495908378&width=500"
+                    ],
+                    "facebook" : "<p><a href='https://www.facebook.com/ValenzuelaCityGov/'>Valenzuela City Official Facebook Page</a></p>",
+                    "official" : "<p><a href='https://www.valenzuela.gov.ph/'>Valenzuela City Gov.ph</a></p>"
                 }
             
         }
