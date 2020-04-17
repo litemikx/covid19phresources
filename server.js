@@ -22,11 +22,11 @@ app.get('/maps/transpo/ncr', (req, res) => {
   res.sendFile(__dirname + '/views/maps.html')
 });
 
-app.get('/health/ncr', (req, res) => {
+app.get('/health', (req, res) => {
   res.sendFile(__dirname + '/views/health.html')
 });
 
-app.get('/hotlines/ncr', (req, res) => {
+app.get('/hotlines', (req, res) => {
   res.sendFile(__dirname + '/views/hotlines.html')
 });
 
