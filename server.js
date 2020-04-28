@@ -34,6 +34,10 @@ app.get('/trackers', (req, res) => {
   res.sendFile(__dirname + '/views/trackers.html')
 });
 
+app.get('/news', (req, res) => {
+  res.sendFile(__dirname + '/views/news.html')
+});
+
 app.get('/data/:region/:city', (req, res, next) => {
     var region = req.params.region;
     var city = req.params.city;
