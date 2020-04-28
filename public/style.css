@@ -34,3 +34,10 @@ i.fa.header-i {
     width: 100px;
     height: auto;
 }
+
+#search-bar {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
