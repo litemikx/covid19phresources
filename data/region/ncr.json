@@ -1,7 +1,7 @@
 {
     "caloocan" : {
         "city" : "Caloocan City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -18,7 +18,7 @@
         },
     "laspinas" : {
         "city" : "Las Piñas City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -37,7 +37,7 @@
         },
     "makati" : {
         "city" : "Makati City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -54,7 +54,7 @@
     },
     "malabon" : {
         "city" : "Malabon City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -72,7 +72,7 @@
     },
     "mandaluyong" : {
         "city" : "Mandaluyong City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -89,7 +89,7 @@
     },
     "manilacity" : {
         "city" : "Manila City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -106,7 +106,7 @@
     },
     "marikina" : {
         "city" : "Marikina City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -123,7 +123,7 @@
     },
     "muntinlupa" : {
         "city" : "Muntinlupa City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -140,7 +140,7 @@
     },
     "navotas" : {
         "city" : "Navotas City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -157,7 +157,7 @@
     },
     "paranaque" : {
         "city" : "Parañaque City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -175,7 +175,7 @@
     },
     "pasay" : {
         "city" : "Pasay City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -194,7 +194,7 @@
     },
     "pasig" : {
         "city" : "Pasig City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -212,7 +212,7 @@
     },
     "pateros" : {
         "city" : "Pateros City",
-        "status" : "Enhanced Community Quarantine",
+        "status" : "General Community Quarantine",
         "info" : 
             {
                 "hotlines" : [
@@ -229,7 +229,7 @@
     },
      "quezoncity" : {
             "city" : "Quezon City",
-            "status" : "Enhanced Community Quarantine",
+            "status" : "General Community Quarantine",
             "info" : 
                 {
                     "hotlines" : [
@@ -247,7 +247,7 @@
         },
         "sanjuan" : {
             "city" : "San Juan City",
-            "status" : "Enhanced Community Quarantine",
+            "status" : "General Community Quarantine",
             "info" : 
                 {
                     "hotlines" : [
@@ -264,7 +264,7 @@
         },
         "taguig" : {
             "city" : "Taguig City",
-            "status" : "Enhanced Community Quarantine",
+            "status" : "General Community Quarantine",
             "info" : 
                 {
                     "hotlines" : [
@@ -281,7 +281,7 @@
         },
         "valenzuela" : {
             "city" : "Valenzuela City",
-            "status" : "Enhanced Community Quarantine",
+            "status" : "General Community Quarantine",
             "info" : 
                 {
                     "hotlines" : [
