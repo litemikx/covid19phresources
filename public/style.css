@@ -41,3 +41,6 @@ i.fa.header-i {
     margin-right: auto;
 }
 
+.app-desc {
+    max-width: 500px;
+}
