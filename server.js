@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html') // '/views/index.html')
 });
 
-app.get('/maps/transpo/ncr', (req, res) => {
+app.get('/maps/transportation', (req, res) => {
   res.sendFile(__dirname + '/views/maps.html')
 });
 
